@@ -1,0 +1,69 @@
+/* Define a cor primária como azul */
+:root {
+  --primary: {{ app.config['PRIMARY_COLOR'] }};
+}
+
+/* Define a cor secundária como verde */
+:root {
+  --secondary: {{ app.config['SECONDARY_COLOR'] }};
+}
+
+/* Define a cor de fundo das páginas como branco */
+body {
+  background-color: #ffffff;
+}
+
+/* Define as cores dos botões e links */
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-secondary {
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+}
+
+a {
+  color: var(--primary);
+}
+
+a:hover {
+  color: var(--secondary);
+}
+
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}

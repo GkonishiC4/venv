@@ -1,0 +1,45 @@
+pip install flask
+pip install flask-sqlalchemy
+pip install psycopg2
+pip install json
+pip install os 
+pip install zipfile
+pip install flask-login
+pip install flask-wtf
+pip install flask-mail
+pip install werkzeug
+
+"""
+pip install alembic==1.10.4
+pip install blinker==1.6.2
+pip install certifi==2022.12.7
+pip install charset-normalizer==3.1.0
+pip install click==8.1.3
+pip install colorama==0.4.6
+pip install dnspython==2.3.0
+pip install email-validator==2.0.0.post2
+pip install Flask==2.3.2
+pip install Flask-Login==0.6.2
+pip install Flask-Mail==0.9.1
+pip install flask-marshmallow==0.15.0
+pip install Flask-Migrate==4.0.4
+pip install Flask-SQLAlchemy==3.0.3
+pip install Flask-WTF==1.1.1
+pip install greenlet==2.0.2
+pip install idna==3.4
+pip install itsdangerous==2.1.2
+pip install Jinja2==3.1.2
+pip install jsonify==0.5
+pip install Mako==1.2.4
+pip install MarkupSafe==2.1.2
+pip install marshmallow==3.19.0
+pip install packaging==23.1
+pip install psycopg2==2.9.6
+pip install requests==2.29.0
+pip install SQLAlchemy==2.0.12
+pip install typing_extensions==4.5.0
+pip install urllib3==1.26.15
+pip install Werkzeug==2.3.3
+pip install FWTForms==3.0.1
+
+"""

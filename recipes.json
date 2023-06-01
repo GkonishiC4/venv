@@ -1,0 +1,225 @@
+[
+    {
+        "id": 11,
+        "title": "Sushi de Salmão",
+        "ingredients": [
+            "200g de arroz para sushi",
+            "200g de salmão fresco fatiado",
+            "2 colheres de sopa de vinagre de arroz",
+            "1 colher de sopa de açúcar",
+            "1 colher de chá de sal",
+            "Alga nori",
+            "Wasabi e molho shoyu para servir"
+        ],
+        "instructions": [
+            "200g de arroz para sushi",
+            "200g de salmão fresco fatiado",
+            "2 colheres de sopa de vinagre de arroz",
+            "1 colher de sopa de açúcar",
+            "1 colher de chá de sal",
+            "Alga nori",
+            "Wasabi e molho shoyu para servir"
+        ],
+        "category": {
+            "id": 3,
+            "name": "Salgado"
+        },
+        "image_url": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTUwOTh8MHwxfHNlYXJjaHwxfHxTdXNoaSUyMGRlJTIwU2FsbSVDMyVBM298ZW58MHx8fHwxNjg1NDg5MTQ0fDA&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 12,
+        "title": "Bolo de Chocolate",
+        "ingredients": [
+            "3 ovos",
+            "2 xícaras de farinha de trigo",
+            "1 xícara de açúcar",
+            "1/2 xícara de cacau em pó",
+            "1 colher de sopa de fermento em pó",
+            "1 xícara de leite"
+        ],
+        "instructions": [
+            "3 ovos",
+            "2 xícaras de farinha de trigo",
+            "1 xícara de açúcar",
+            "1/2 xícara de cacau em pó",
+            "1 colher de sopa de fermento em pó",
+            "1 xícara de leite"
+        ],
+        "category": {
+            "id": 2,
+            "name": "Doce"
+        },
+        "image_url": "https://images.unsplash.com/photo-1623888885364-56cf1a38b6ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTUwOTh8MHwxfHNlYXJjaHwxfHxCb2xvJTIwZGUlMjBDaG9jb2xhdGV8ZW58MHx8fHwxNjg1NTcxMjU1fDA&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 13,
+        "title": "Macarrão à Bolonhesa",
+        "ingredients": [
+            "300g de macarrão",
+            "200g de carne moída",
+            "1 cebola picada",
+            "2 dentes de alho picados",
+            "1 lata de tomate pelado",
+            "Sal e pimenta a gosto"
+        ],
+        "instructions": [
+            "300g de macarrão",
+            "200g de carne moída",
+            "1 cebola picada",
+            "2 dentes de alho picados",
+            "1 lata de tomate pelado",
+            "Sal e pimenta a gosto"
+        ],
+        "category": {
+            "id": 3,
+            "name": "Salgado"
+        },
+        "image_url": "https://images.unsplash.com/photo-1663585057404-ea5d871c7e4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTUwOTh8MHwxfHNlYXJjaHwxfHxNYWNhcnIlQzMlQTNvJTIwJUMzJUEwJTIwQm9sb25oZXNhfGVufDB8fHx8MTY4NTQ4ODg3Nnww&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 14,
+        "title": "Mojito",
+        "ingredients": [
+            "50ml de rum branco",
+            "Suco de 1 limão",
+            "10 folhas de hortelã",
+            "2 colheres de sopa de açúcar",
+            "Água com gás",
+            "Gelo"
+        ],
+        "instructions": [
+            "50ml de rum branco",
+            "Suco de 1 limão",
+            "10 folhas de hortelã",
+            "2 colheres de sopa de açúcar",
+            "Água com gás",
+            "Gelo"
+        ],
+        "category": {
+            "id": 1,
+            "name": "Bebida"
+        },
+        "image_url": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTUwOTh8MHwxfHNlYXJjaHwxfHxNb2ppdG98ZW58MHx8fHwxNjg1NTcxMzc3fDA&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 15,
+        "title": "Smoothie de Frutas Tropicais",
+        "ingredients": [
+            "1 banana",
+            "1 xícara de abacaxi em cubos",
+            "1 xícara de manga em cubos",
+            "1/2 xícara de leite de coco",
+            "2 colheres de sopa de mel",
+            "Gelo a gosto"
+        ],
+        "instructions": [
+            "1 banana",
+            "1 xícara de abacaxi em cubos",
+            "1 xícara de manga em cubos",
+            "1/2 xícara de leite de coco",
+            "2 colheres de sopa de mel",
+            "Gelo a gosto"
+        ],
+        "category": {
+            "id": 1,
+            "name": "Bebida"
+        },
+        "image_url": "https://images.unsplash.com/photo-1598065412434-6544dc76f81f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTUwOTh8MHwxfHNlYXJjaHwxfHxTbW9vdGhpZSUyMGRlJTIwRnJ1dGFzJTIwVHJvcGljYWlzfGVufDB8fHx8MTY4NTU3MTQzM3ww&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 16,
+        "title": "Caipirinha de Limão",
+        "ingredients": [
+            "1 limão",
+            "2 colheres de sopa de açúcar",
+            "50ml de cachaça",
+            "Gelo"
+        ],
+        "instructions": [
+            "1 limão",
+            "2 colheres de sopa de açúcar",
+            "50ml de cachaça",
+            "Gelo"
+        ],
+        "category": {
+            "id": 1,
+            "name": "Bebida"
+        },
+        "image_url": "https://images.unsplash.com/photo-1598065412434-6544dc76f81f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTUwOTh8MHwxfHNlYXJjaHwxfHxDYWlwaXJpbmhhJTIwZGUlMjBMaW0lQzMlQTNvfGVufDB8fHx8MTY4NTU3MTU5OXww&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 17,
+        "title": "Cajuína Spritz",
+        "ingredients": [
+            "50ml de cachaça",
+            "100ml de suco de caju",
+            "20ml de xarope de açúcar",
+            "Gelo",
+            "Água com gás",
+            "Fatias de caju para decorar"
+        ],
+        "instructions": [
+            "50ml de cachaça",
+            "100ml de suco de caju",
+            "20ml de xarope de açúcar",
+            "Gelo",
+            "Água com gás",
+            "Fatias de caju para decorar"
+        ],
+        "category": {
+            "id": 1,
+            "name": "Bebida"
+        },
+        "image_url": "https://images.unsplash.com/photo-1607453344099-16118a43e716?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTUwOTh8MHwxfHNlYXJjaHwxfHxDYWp1JUMzJUFEbmElMjBTcHJpdHp8ZW58MHx8fHwxNjg1NTcxNjgxfDA&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 18,
+        "title": "Café Cremoso",
+        "ingredients": [
+            "2 colheres de sopa de café solúvel",
+            "2 colheres de sopa de açúcar",
+            "2 colheres de sopa de água quente",
+            "Leite quente para servir"
+        ],
+        "instructions": [
+            "2 colheres de sopa de café solúvel",
+            "2 colheres de sopa de açúcar",
+            "2 colheres de sopa de água quente",
+            "Leite quente para servir"
+        ],
+        "category": {
+            "id": 1,
+            "name": "Bebida"
+        },
+        "image_url": "https://images.unsplash.com/5/unsplash-bonus.jpg?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTUwOTh8MHwxfHNlYXJjaHwxfHxDYWYlQzMlQTklMjBDcmVtb3NvfGVufDB8fHx8MTY4NTU3MTc3M3ww&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+        "id": 19,
+        "title": "Escondidinho de Carne de Sol",
+        "ingredients": [
+            "500g de carne de sol dessalgada e desfiada",
+            "1kg de mandioca",
+            "2 colheres de sopa de manteiga",
+            "1 cebola picada",
+            "2 dentes de alho picados",
+            "200ml de leite",
+            "150g de queijo coalho ralado",
+            "Sal e pimenta a gosto"
+        ],
+        "instructions": [
+            "500g de carne de sol dessalgada e desfiada",
+            "1kg de mandioca",
+            "2 colheres de sopa de manteiga",
+            "1 cebola picada",
+            "2 dentes de alho picados",
+            "200ml de leite",
+            "150g de queijo coalho ralado",
+            "Sal e pimenta a gosto"
+        ],
+        "category": {
+            "id": 3,
+            "name": "Salgado"
+        },
+        "image_url": "https://images.unsplash.com/photo-1598065412434-6544dc76f81f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTUwOTh8MHwxfHNlYXJjaHwxfHxFc2NvbmRpZGluaG8lMjBkZSUyMENhcm5lJTIwZGUlMjBTb2x8ZW58MHx8fHwxNjg1NTcxODUyfDA&ixlib=rb-4.0.3&q=80&w=1080"
+    }
+]
