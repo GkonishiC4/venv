@@ -74,10 +74,6 @@ class Category(db.Model):
     def __init__(self, name):
         self.name = name
 
-import requests
-
-import requests
-
 def buscar_imagens(query, access_key):
     url = f"https://api.unsplash.com/search/photos?query={query}&per_page=1"
     headers = {"Authorization": f"Client-ID {access_key}"}
@@ -152,6 +148,22 @@ def register():
             "message": "Por algum motivo não conseguimos fazer o cadastro do usuário.",
             "statusCode": 500
         }), 500
+    
+@app.route('/reset_password', methods=['PUT'])
+def reset_password():
+    email = request.json.get('email')
+    new_password = request.json.get('new_password')
+
+    # Verifique se o email existe no banco de dados
+    user = User.query.filter_by(email=email).first()
+    if not user:
+        return jsonify({'message': 'Email não encontrado'}), 404
+
+    # Atualize a senha do usuário
+    user.password = generate_password_hash(new_password)
+    db.session.commit()
+
+    return jsonify({'message': 'Senha redefinida com sucesso'})
  
 @app.route('/recipes', methods=['GET', 'POST'])
 def recipes():
@@ -183,12 +195,12 @@ def recipes():
         for recipe in recipes:
             # Buscar imagens relacionadas ao nome da receita
             images = buscar_imagens(recipe.title, 'TUuIA5-hqCaBz9cb9XAqd4hnyAjJHssTpxpz9XC7b8I')
-            image_url = images[1] if images else ''  # Obter a primeira URL de imagem encontrada ou uma string vazia se não houver imagens
+            image_url = images[0] if images else ''  # Obter a primeira URL de imagem encontrada ou uma string vazia se não houver imagens
             result.append({
                 'id': recipe.id,
                 'title': recipe.title,
                 'ingredients': recipe.ingredients.split('\n'),
-                'instructions': recipe.instructions,
+                'instructions': recipe.instructions.split('\n'),
                 'category': {
                     'id': recipe.category.id,
                     'name': recipe.category.name
@@ -240,10 +252,6 @@ def recipe(id):
         db.session.commit()
         return jsonify({'message': 'Receita removida com sucesso'})
 
-
-import json
-import zipfile
-from flask import send_file
 
 @app.route('/recipes/export', methods=['GET'])
 def export_recipes():
